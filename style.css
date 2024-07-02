@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    color:rgb(7, 130, 130);
+}
+
+h4{
+    color:rgb(185, 9, 9);
+}
+
+
+section.header{
+    flex-wrap: wrap;
+}
+
+.info-box{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 6cm;
+    height: 5cm;
+}
+
+.people-img{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.people-name{
+    font-weight: bold;
+}
+
+
+
+.contact-main-box{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+aside, main{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-content: center;
+    border-radius: 25px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.btn-login {
+    background-color: #d81919;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-signup {
+    background-color: #0eaa1b; 
+    color: white;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-search{
+    background-color:red; 
+    color: white;
+}
+
+footer {
+    background-color: #FF0000; 
+    color: rgb(62, 59, 59);             
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.button-container {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-text{
+    color:#d81919;
+}
